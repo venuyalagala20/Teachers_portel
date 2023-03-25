@@ -1,0 +1,14 @@
+<ul>
+    <!-- Iterate over object_list -->
+    {% for object in object_list %}
+    <!-- Display Objects -->
+    <li>FirestName : {{ object.FirstName }}</li>
+    <li>LastName : {{ object.LastName }}</li>
+    <li>Profile : {{ object.Profilepicture }}</li>
+    <li>EmailAddress : {{ object.EmailAddress }}</li>
+    <li>PhoneNumber : {{ object.PhoneNumber }}</li>
+    <li>RoomNumber : {{ object.RoomNumber }}</li>
+    <li>Subjectstaught : {{ object.Subjectstaught }}</li>
+    
+    {% endfor %}
+</ul>
